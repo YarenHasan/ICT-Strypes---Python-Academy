@@ -16,16 +16,14 @@ This is a simple text-based implementation of the classic Blackjack game, also k
  * Face cards (Jack, Queen, King) are worth 10.
  * Ace is worth 11, but adjusts to 1 if you bust.
 
-🧱 Code Structure
+🧱 Code Structure:
+
 The game logic is built using OOP concepts with the following classes:
 
-Card: Represents a single card with a suit and rank.
-
-Deck: Represents a collection of 52 Card objects. Includes shuffle() and deal().
-
-Hand: Tracks the cards in a player's or dealer's hand, their value, and adjusts for Aces.
-
-Chips: Manages betting and chip totals.
+ * Card: Represents a single card with a suit and rank.
+ * Deck: Represents a collection of 52 Card objects. Includes shuffle() and deal().
+ * Hand: Tracks the cards in a player's or dealer's hand, their value, and adjusts for Aces.
+ * Chips: Manages betting and chip totals.
 
 🧩 Core Functions
 Function	Description
