@@ -9,8 +9,7 @@ This is a simple text-based implementation of the classic Blackjack game, also k
   * You start with 100 chips and can place a bet each round.
   * Player decides to hit (h) or stand (s).
   * After each round, you’re asked if you'd like to play again.
-
-
+<br />
 
 🧠 Game Rules Summary:
 
@@ -21,6 +20,7 @@ This is a simple text-based implementation of the classic Blackjack game, also k
 
 
 🧱 Code Structure:
+
 The game logic is built using OOP concepts with the following classes:
 
  * Card: Represents a single card with a suit and rank.
@@ -31,6 +31,7 @@ The game logic is built using OOP concepts with the following classes:
 
 
 🧩 Core Functions:
+
 Function	Description:
 
  * take_bet()	Prompts the player to place a bet and validates it
