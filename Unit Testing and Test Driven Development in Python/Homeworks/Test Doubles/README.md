@@ -1,4 +1,4 @@
-# 📂 Simple File Reader (Python)
+# 📂 Simple Line Reader (Python)
 This is a minimal Python script that demonstrates how to read data from a file safely, with built-in error handling to ensure the file exists before reading.
 <br />
 
