@@ -48,7 +48,7 @@ Function	Description:
  * push():	Triggered in a tie
 <br />
 
-📄 Example:
+💻 Example:
 
     WELCOME TO BLACKJACK!
     How many chips would you like to bet? 56
