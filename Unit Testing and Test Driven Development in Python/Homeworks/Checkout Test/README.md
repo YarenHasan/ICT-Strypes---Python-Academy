@@ -1,5 +1,6 @@
 # 🛒 Checkout System with Discounts (Python)
 This homework implements a simple yet flexible checkout system in Python. It allows you to scan items, apply pricing, define item-specific bulk discounts, and compute the total price dynamically.
+<br />
 
 🎯 Features:
 
@@ -7,12 +8,17 @@ This homework implements a simple yet flexible checkout system in Python. It all
   * Support for quantity-based discounts
   * Calculate total cost of all items in cart
   * Error handling for unpriced items
+<br />
 
 🧱 Class Overview:
 
   🧮 Checkout Class:
 
   The main class that handles item scanning, pricing, and total calculation.
+  
+  📉 Discount Inner Class:
+  
+  Handles the data structure for quantity-based discounts.
 
 📌 Methods:
 
@@ -24,3 +30,5 @@ This homework implements a simple yet flexible checkout system in Python. It all
   * calculateTotal():	Returns the total cost of all scanned items
   * calculateItemTotal(item, count):	Calculates the total for a specific item considering discounts
   * calculateItemDiscountedTotal(item, count, discount):	Applies the discount logic for a discounted item
+<br />
+
