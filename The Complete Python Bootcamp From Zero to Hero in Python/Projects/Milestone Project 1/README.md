@@ -3,27 +3,38 @@
 This is a simple command-line implementation of the classic Tic Tac Toe game written in Python. The game allows two players to take turns placing their markers (X or O) on a 3x3 board, with the objective of getting three of their marks in a row (horizontally, vertically, or diagonally).
 
 Features:
+
 Two-player game mode (local multiplayer)
+
 Console-based board display using a number pad layout
+
 Random player starter
+
 Input validation to prevent invalid or occupied positions
+
 Option to replay the game after each round
 
 How to Play:
+
 Run the script in a Python environment that supports IPython.display.clear_output() (e.g., Jupyter Notebook or compatible terminal).
+
 Player 1 chooses a marker (X or O), and Player 2 gets the remaining marker.
+
 Players take turns choosing positions on the board (1–9, like a number pad).
+
 The game announces a winner or a tie once the board is full or a winning condition is met.
+
 After the game ends, players are prompted whether they want to play again.
 
 Board Layout Reference:
 The board positions correspond to the number pad as follows:
 
- 7 | 8 | 9
------------
- 4 | 5 | 6
------------
- 1 | 2 | 3
+ **7** | **8** | **9**
+---------------
+ **4** | **5** | **6**
+---------------
+ **1** | **2** | **3**
+
 
  Code Overview:
 The script includes the following core functions:
