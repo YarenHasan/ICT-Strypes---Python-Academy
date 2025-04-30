@@ -1,18 +1,14 @@
 # 🃏 Blackjack Game (Console-Based Python)
 This is a simple text-based implementation of the classic Blackjack game, also known as 21, built using Python. It features object-oriented design with classes for Card, Deck, Hand, and Chips, and includes core gameplay mechanics like betting, hit/stand choices, Ace adjustment, and win/loss scenarios.
 
-🎮 How to Play
-Each player starts with two cards and aims to get as close to 21 as possible without going over.
+🎮 How to Play:
 
-The Dealer must hit until their cards total 17 or more.
-
-Aces can count as either 11 or 1, depending on the best advantage.
-
-You start with 100 chips and can place a bet each round.
-
-Player decides to hit (h) or stand (s).
-
-After each round, you’re asked if you'd like to play again.
+  * Each player starts with two cards and aims to get as close to 21 as possible without going over.
+  * The Dealer must hit until their cards total 17 or more.
+  * Aces can count as either 11 or 1, depending on the best advantage.
+  * You start with 100 chips and can place a bet each round.
+  * Player decides to hit (h) or stand (s).
+  * After each round, you’re asked if you'd like to play again.
 
 🧠 Game Rules Summary
 Number cards are worth their face value.
