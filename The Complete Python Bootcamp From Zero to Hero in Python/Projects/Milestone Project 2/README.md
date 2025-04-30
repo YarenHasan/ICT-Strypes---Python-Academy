@@ -21,7 +21,6 @@ This is a simple text-based implementation of the classic Blackjack game, also k
 
 
 🧱 Code Structure:
-
 The game logic is built using OOP concepts with the following classes:
 
  * Card: Represents a single card with a suit and rank.
@@ -32,7 +31,6 @@ The game logic is built using OOP concepts with the following classes:
 
 
 🧩 Core Functions:
-
 Function	Description:
 
  * take_bet()	Prompts the player to place a bet and validates it
