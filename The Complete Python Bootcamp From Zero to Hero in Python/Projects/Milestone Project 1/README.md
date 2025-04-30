@@ -1,10 +1,10 @@
 # MILESTONE PROJECT 1
- # Tic Tac Toe Game (Console-Based)
+ # ❌⭕ Tic Tac Toe Game (Console-Based)
 This is a simple command-line implementation of the classic Tic Tac Toe game written in Python. The game allows two players to take turns placing their markers (X or O) on a 3x3 board, with the objective of getting three of their marks in a row (horizontally, vertically, or diagonally).
 <br />
 
 
-Features:
+🎯 Features:
 
  * Two-player game mode (local multiplayer).
  * Console-based board display using a number pad layout.
@@ -14,7 +14,7 @@ Features:
 <br />
 
 
-How to Play:
+🕹️ How to Play:
 
  * Run the script in a Python environment that supports IPython.display.clear_output().
  * Player 1 chooses a marker (X or O), and Player 2 gets the remaining marker.
@@ -24,7 +24,7 @@ How to Play:
 <br />
 
 
-Board Layout Reference:
+🧱 Board Layout Reference:
 
    The board positions correspond to the number pad as follows:
  
@@ -37,7 +37,7 @@ Board Layout Reference:
 
 
 
- Code Overview:
+ 🧠 Code Overview:
  
  The script includes the following core functions:
  
@@ -53,7 +53,7 @@ Board Layout Reference:
   * run_game(): Main game loop.
 <br />
 
-Example:
+📄 Example:
 
 	Welcome to Tic Tac Toe!
 
