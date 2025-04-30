@@ -2,7 +2,6 @@
 This is a simple text-based implementation of the classic Blackjack game, also known as 21, built using Python. It features object-oriented design with classes for Card, Deck, Hand, and Chips, and includes core gameplay mechanics like betting, hit/stand choices, Ace adjustment, and win/loss scenarios.
 <br />
 
-
 🎮 How to Play:
 
   * Each player starts with two cards and aims to get as close to 21 as possible without going over.
