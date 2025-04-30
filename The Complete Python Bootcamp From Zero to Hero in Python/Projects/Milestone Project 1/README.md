@@ -4,15 +4,17 @@ This is a simple command-line implementation of the classic Tic Tac Toe game wri
 
 Features:
 
-Two-player game mode (local multiplayer)
+Two-player game mode (local multiplayer).
 
-Console-based board display using a number pad layout
+Console-based board display using a number pad layout.
 
-Random player starter
+Random player starter.
 
-Input validation to prevent invalid or occupied positions
+Input validation to prevent invalid or occupied positions.
 
-Option to replay the game after each round
+Option to replay the game after each round.
+
+
 
 How to Play:
 
@@ -26,7 +28,10 @@ The game announces a winner or a tie once the board is full or a winning conditi
 
 After the game ends, players are prompted whether they want to play again.
 
+
+
 Board Layout Reference:
+
 The board positions correspond to the number pad as follows:
 
  **7** | **8** | **9**
@@ -36,20 +41,34 @@ The board positions correspond to the number pad as follows:
  **1** | **2** | **3**
 
 
+
  Code Overview:
+ 
 The script includes the following core functions:
+
 display_board(board): Renders the current game board.
+
 player_input(): Gets player marker choice.
+
 place_marker(board, marker, position): Places a marker on the board.
+
 win_check(board, mark): Checks for a winning condition.
+
 choose_first(): Randomly selects the first player.
+
 space_check(board, position): Checks if a position is free.
+
 full_board_check(board): Checks for a tie.
+
 player_choice(board): Gets valid input for the next move.
+
 replay(): Asks players if they want to play again.
+
 run_game(): Main game loop.
 
+
 Example:
+
 Welcome to Tic Tac Toe!
 Player 1, please choose X or O: X
 Player2 will go first.
