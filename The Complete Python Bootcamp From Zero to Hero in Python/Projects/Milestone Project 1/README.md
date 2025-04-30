@@ -1,5 +1,5 @@
-                                                                      # MILESTONE PROJECT 1
-                                                                  # Tic Tac Toe Game (Console-Based)
+# MILESTONE PROJECT 1
+ # Tic Tac Toe Game (Console-Based)
 This is a simple command-line implementation of the classic Tic Tac Toe game written in Python. The game allows two players to take turns placing their markers (X or O) on a 3x3 board, with the objective of getting three of their marks in a row (horizontally, vertically, or diagonally).
 
 Features:
