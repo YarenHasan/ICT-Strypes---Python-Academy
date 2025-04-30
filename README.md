@@ -1,2 +1,2 @@
-# ICT-Strypes---Python-Academy
+# 🎓🐍 ICT-Strypes---Python-Academy
 Solving projects and homeworks from the Python Academy Courses on Udemy
