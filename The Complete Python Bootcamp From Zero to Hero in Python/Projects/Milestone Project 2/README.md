@@ -1,4 +1,5 @@
-# 🃏 Blackjack Game (Console-Based Python)
+# MILESTONE PROJECT 2
+ # 🃏 Blackjack Game (Console-Based Python)
 This is a simple text-based implementation of the classic Blackjack game, also known as 21, built using Python. It features object-oriented design with classes for Card, Deck, Hand, and Chips, and includes core gameplay mechanics like betting, hit/stand choices, Ace adjustment, and win/loss scenarios.
 <br />
 
@@ -47,7 +48,7 @@ Function	Description:
  * push():	Triggered in a tie
 <br />
 
-Example:
+📄 Example:
 
     WELCOME TO BLACKJACK!
     How many chips would you like to bet? 56
