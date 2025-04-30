@@ -1,6 +1,8 @@
 # MILESTONE PROJECT 1
  # Tic Tac Toe Game (Console-Based)
 This is a simple command-line implementation of the classic Tic Tac Toe game written in Python. The game allows two players to take turns placing their markers (X or O) on a 3x3 board, with the objective of getting three of their marks in a row (horizontally, vertically, or diagonally).
+<br />
+
 
 Features:
 
@@ -9,7 +11,7 @@ Features:
  * Random player starter.
  * Input validation to prevent invalid or occupied positions.
  * Option to replay the game after each round.
-
+<br />
 
 
 How to Play:
@@ -19,7 +21,7 @@ How to Play:
  * Players take turns choosing positions on the board (1–9, like a number pad).
  * The game announces a winner or a tie once the board is full or a winning condition is met.
  * After the game ends, players are prompted whether they want to play again.
-
+<br />
 
 
 Board Layout Reference:
@@ -31,25 +33,25 @@ Board Layout Reference:
   	 4 | 5 | 6
  	-----------
   	 1 | 2 | 3
-
+<br />
 
 
 
  Code Overview:
  
-	The script includes the following core functions:
+ The script includes the following core functions:
  
-	* display_board(board): Renders the current game board.
-	* player_input(): Gets player marker choice.
-	* place_marker(board, marker, position): Places a marker on the board.
-	* win_check(board, mark): Checks for a winning condition.
-	* choose_first(): Randomly selects the first player.
-	* space_check(board, position): Checks if a position is free.
-	* full_board_check(board): Checks for a tie.
-	* player_choice(board): Gets valid input for the next move.
-	* replay(): Asks players if they want to play again.
-	* run_game(): Main game loop.
-
+  * display_board(board): Renders the current game board.
+  * player_input(): Gets player marker choice.
+  * place_marker(board, marker, position): Places a marker on the board.
+  * win_check(board, mark): Checks for a winning condition.
+  * choose_first(): Randomly selects the first player.
+  * space_check(board, position): Checks if a position is free.
+  * full_board_check(board): Checks for a tie.
+  * player_choice(board): Gets valid input for the next move.
+  * replay(): Asks players if they want to play again.
+  * run_game(): Main game loop.
+<br />
 
 Example:
 
