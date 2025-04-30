@@ -10,7 +10,7 @@ This homework implements a simple yet flexible checkout system in Python. It all
 
 🧱 Class Overview:
 
-🧮 Checkout Class:
+ 🧮 Checkout Class:
 
   The main class that handles item scanning, pricing, and total calculation.
 
