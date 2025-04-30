@@ -24,13 +24,13 @@ How to Play:
 
 Board Layout Reference:
 
- The board positions correspond to the number pad as follows:
+  * The board positions correspond to the number pad as follows:
  
-  7 | 8 | 9
- -----------
-  4 | 5 | 6
- -----------
-  1 | 2 | 3
+ 	 7 | 8 | 9
+ 	-----------
+  	4 | 5 | 6
+ 	-----------
+  	1 | 2 | 3
 
 
 
