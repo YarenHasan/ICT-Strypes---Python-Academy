@@ -53,24 +53,24 @@ Board Layout Reference:
 
 Example:
 
-Welcome to Tic Tac Toe!
+	Welcome to Tic Tac Toe!
 
-Player 1, please choose X or O: X
+	Player 1, please choose X or O: X
 
-Player2 will go first.
+	Player2 will go first.
 
-Ready to play? yes or no? yes
+	Ready to play? yes or no? yes
 
-
-	   |   |  
-	 ---------
 
 	   |   |  
 	 ---------
 
 	   |   |  
+	 ---------
 
-Choose your next position (1-9): 1
+	   |   |  
+
+	Choose your next position (1-9): 1
 
 	   |   |  
 	 ---------
@@ -80,7 +80,7 @@ Choose your next position (1-9): 1
 
 	 O |   |  
 
-Choose your next position (1-9): 5
+	Choose your next position (1-9): 5
 
 	   |   |  
 	 ---------
@@ -90,7 +90,7 @@ Choose your next position (1-9): 5
 
 	 O |   |  
 
-Choose your next position (1-9): 2
+	Choose your next position (1-9): 2
 
 	   |   |  
 	 ---------
@@ -100,7 +100,7 @@ Choose your next position (1-9): 2
 
 	 O | O |  
 
-Choose your next position (1-9): 3
+	Choose your next position (1-9): 3
 
 	   |   |  
 	 ---------
@@ -110,7 +110,7 @@ Choose your next position (1-9): 3
 
 	 O | O | X
 
-Choose your next position (1-9): 7
+	Choose your next position (1-9): 7
 
 	 O |   |  
 	 ---------
@@ -120,7 +120,7 @@ Choose your next position (1-9): 7
 
 	 O | O | X
 
-Choose your next position (1-9): 4
+	Choose your next position (1-9): 4
 
 	 O |   |  
 	 ---------
@@ -130,7 +130,7 @@ Choose your next position (1-9): 4
 
 	 O | O | X
 
-Choose your next position (1-9): 6
+	Choose your next position (1-9): 6
 
 	 O |   |  
 	 ---------
@@ -140,7 +140,7 @@ Choose your next position (1-9): 6
 
 	 O | O | X
 
-Choose your next position (1-9): 8
+	Choose your next position (1-9): 8
 
 	 O | X |  
 	 ---------
@@ -150,7 +150,7 @@ Choose your next position (1-9): 8
 
 	 O | O | X
 
-Choose your next position (1-9): 9
+	Choose your next position (1-9): 9
 
 	 O | X | O
 	 ---------
@@ -160,8 +160,8 @@ Choose your next position (1-9): 9
 
 	 O | O | X
 
-Tie game!
+	Tie game!
 
-Do you want to keep playing? (Yes or No)  No
+	Do you want to keep playing? (Yes or No)  No
 
-Thank you for playing!
+	Thank you for playing!
