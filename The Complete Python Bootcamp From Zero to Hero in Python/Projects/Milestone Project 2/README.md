@@ -10,12 +10,11 @@ This is a simple text-based implementation of the classic Blackjack game, also k
   * Player decides to hit (h) or stand (s).
   * After each round, you’re asked if you'd like to play again.
 
-🧠 Game Rules Summary
-Number cards are worth their face value.
+🧠 Game Rules Summary:
 
-Face cards (Jack, Queen, King) are worth 10.
-
-Ace is worth 11, but adjusts to 1 if you bust.
+ * Number cards are worth their face value.
+ * Face cards (Jack, Queen, King) are worth 10.
+ * Ace is worth 11, but adjusts to 1 if you bust.
 
 🧱 Code Structure
 The game logic is built using OOP concepts with the following classes:
