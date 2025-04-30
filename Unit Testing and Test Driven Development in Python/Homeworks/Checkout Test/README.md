@@ -20,6 +20,7 @@ This homework implements a simple yet flexible checkout system in Python. It all
   
   * Handles the data structure for quantity-based discounts.
 
+
 📌 Methods:
 
   Method	Description:
