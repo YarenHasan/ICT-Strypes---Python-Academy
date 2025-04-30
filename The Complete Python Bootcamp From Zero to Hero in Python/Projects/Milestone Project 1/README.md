@@ -38,16 +38,17 @@ Board Layout Reference:
  Code Overview:
  
 	The script includes the following core functions:
-	display_board(board): Renders the current game board.
-	player_input(): Gets player marker choice.
-	place_marker(board, marker, position): Places a marker on the board.
-	win_check(board, mark): Checks for a winning condition.
-	choose_first(): Randomly selects the first player.
-	space_check(board, position): Checks if a position is free.
-	full_board_check(board): Checks for a tie.
-	player_choice(board): Gets valid input for the next move.
-	replay(): Asks players if they want to play again.
-	run_game(): Main game loop.
+ 
+	* display_board(board): Renders the current game board.
+	* player_input(): Gets player marker choice.
+	* place_marker(board, marker, position): Places a marker on the board.
+	* win_check(board, mark): Checks for a winning condition.
+	* choose_first(): Randomly selects the first player.
+	* space_check(board, position): Checks if a position is free.
+	* full_board_check(board): Checks for a tie.
+	* player_choice(board): Gets valid input for the next move.
+	* replay(): Asks players if they want to play again.
+	* run_game(): Main game loop.
 
 
 Example:
