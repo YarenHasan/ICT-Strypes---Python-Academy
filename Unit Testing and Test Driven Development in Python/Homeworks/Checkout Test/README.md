@@ -14,11 +14,11 @@ This homework implements a simple yet flexible checkout system in Python. It all
 
   🧮 Checkout Class:
 
-  The main class that handles item scanning, pricing, and total calculation.
+  * The main class that handles item scanning, pricing, and total calculation.
   
   📉 Discount Inner Class:
   
-  Handles the data structure for quantity-based discounts.
+  * Handles the data structure for quantity-based discounts.
 
 📌 Methods:
 
