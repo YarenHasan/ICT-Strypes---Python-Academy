@@ -14,7 +14,7 @@ Features:
 
 How to Play:
 
-	Run the script in a Python environment that supports IPython.display.clear_output() (e.g., Jupyter Notebook or compatible terminal).
+	Run the script in a Python environment that supports IPython.display.clear_output().
 	Player 1 chooses a marker (X or O), and Player 2 gets the remaining marker.
 	Players take turns choosing positions on the board (1–9, like a number pad).
 	The game announces a winner or a tie once the board is full or a winning condition is met.
@@ -25,11 +25,12 @@ How to Play:
 Board Layout Reference:
 
 	The board positions correspond to the number pad as follows:
-	 **7** | **8** | **9**
-	---------------
-	 **4** | **5** | **6**
-	---------------
- 	 **1** | **2** | **3**
+	 7 | 8 | 9
+	-----------
+ 	 4 | 5 | 6
+	-----------
+ 	 1 | 2 | 3
+
 
 
 
