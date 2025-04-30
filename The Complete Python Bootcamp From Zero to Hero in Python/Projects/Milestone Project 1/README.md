@@ -56,9 +56,7 @@ Example:
 	Welcome to Tic Tac Toe!
 
 	Player 1, please choose X or O: X
-
 	Player2 will go first.
-
 	Ready to play? yes or no? yes
 
 
@@ -163,5 +161,4 @@ Example:
 	Tie game!
 
 	Do you want to keep playing? (Yes or No)  No
-
 	Thank you for playing!
