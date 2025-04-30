@@ -33,3 +33,18 @@ This homework implements a simple yet flexible checkout system in Python. It all
   * calculateItemDiscountedTotal(item, count, discount):	Applies the discount logic for a discounted item
 <br />
 
+🧪 Example Usage
+
+    checkout = Checkout()
+    checkout.addItemPrice("apple", 1.00)
+    checkout.addItemPrice("banana", 0.50)
+
+    checkout.addDiscount("apple", 3, 2.50)  # Buy 3 apples for $2.50
+
+    checkout.addItem("apple")
+    checkout.addItem("apple")
+    checkout.addItem("apple")
+    checkout.addItem("banana")
+
+    total = checkout.calculateTotal()
+    print(f"Total: ${total:.2f}")  # Output: Total: $3.00
