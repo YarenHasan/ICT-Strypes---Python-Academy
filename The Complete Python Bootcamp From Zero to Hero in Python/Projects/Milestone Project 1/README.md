@@ -4,7 +4,7 @@ This is a simple command-line implementation of the classic Tic Tac Toe game wri
 
 Features:
 
-Two-player game mode (local multiplayer).
+	Two-player game mode (local multiplayer).
 
 Console-based board display using a number pad layout.
 
