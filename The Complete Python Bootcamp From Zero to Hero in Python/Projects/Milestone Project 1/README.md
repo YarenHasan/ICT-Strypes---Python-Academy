@@ -53,7 +53,7 @@ This is a simple command-line implementation of the classic Tic Tac Toe game wri
   * run_game(): Main game loop.
 <br />
 
-📄 Example:
+💻 Example:
 
 	Welcome to Tic Tac Toe!
 
