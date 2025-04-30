@@ -161,5 +161,7 @@ Choose your next position (1-9): 9
 	 O | O | X
 
 Tie game!
+
 Do you want to keep playing? (Yes or No)  No
+
 Thank you for playing!
