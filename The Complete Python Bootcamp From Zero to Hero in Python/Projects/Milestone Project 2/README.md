@@ -35,13 +35,13 @@ The game logic is built using OOP concepts with the following classes:
 
 Function	Description:
 
- * take_bet()	Prompts the player to place a bet and validates it
- * hit()	Deals a card and adjusts for Aces
- * hit_or_stand()	Allows the player to choose to hit or stand
- * show_some()	Shows player's full hand and one dealer card
- * show_all()	Reveals both hands and their values at the end
- * player_busts()	Triggered if the player exceeds 21
- * dealer_busts()	Triggered if the dealer exceeds 21
- * player_wins()	Triggered when player has higher value than dealer
- * dealer_wins()	Triggered when dealer beats player
- * push()	Triggered in a tie
+ * take_bet():	Prompts the player to place a bet and validates it
+ * hit():	Deals a card and adjusts for Aces
+ * hit_or_stand():	Allows the player to choose to hit or stand
+ * show_some():	Shows player's full hand and one dealer card
+ * show_all():	Reveals both hands and their values at the end
+ * player_busts():	Triggered if the player exceeds 21
+ * dealer_busts():	Triggered if the dealer exceeds 21
+ * player_wins():	Triggered when player has higher value than dealer
+ * dealer_wins():	Triggered when dealer beats player
+ * push():	Triggered in a tie
