@@ -30,11 +30,11 @@ This is a minimal Python script that demonstrates how to read data from a file s
         print(e)
 <br />
     
-   Output:
+   * Output:
 
-     First line: Hello, world!
+         First line: Hello, world!
 <br />
 
-   Or if the file doesn't exist:
+   * Or if the file doesn't exist:
 
-     Bad File!
+         Bad File!
