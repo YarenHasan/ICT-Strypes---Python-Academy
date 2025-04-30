@@ -10,11 +10,15 @@ This is a simple text-based implementation of the classic Blackjack game, also k
   * Player decides to hit (h) or stand (s).
   * After each round, you’re asked if you'd like to play again.
 
+
+
 🧠 Game Rules Summary:
 
  * Number cards are worth their face value.
  * Face cards (Jack, Queen, King) are worth 10.
  * Ace is worth 11, but adjusts to 1 if you bust.
+
+
 
 🧱 Code Structure:
 
@@ -25,15 +29,19 @@ The game logic is built using OOP concepts with the following classes:
  * Hand: Tracks the cards in a player's or dealer's hand, their value, and adjusts for Aces.
  * Chips: Manages betting and chip totals.
 
-🧩 Core Functions
-Function	Description
-take_bet()	Prompts the player to place a bet and validates it
-hit()	Deals a card and adjusts for Aces
-hit_or_stand()	Allows the player to choose to hit or stand
-show_some()	Shows player's full hand and one dealer card
-show_all()	Reveals both hands and their values at the end
-player_busts()	Triggered if the player exceeds 21
-dealer_busts()	Triggered if the dealer exceeds 21
-player_wins()	Triggered when player has higher value than dealer
-dealer_wins()	Triggered when dealer beats player
-push()	Triggered in a tie
+
+
+🧩 Core Functions:
+
+Function	Description:
+
+ * take_bet()	Prompts the player to place a bet and validates it
+ * hit()	Deals a card and adjusts for Aces
+ * hit_or_stand()	Allows the player to choose to hit or stand
+ * show_some()	Shows player's full hand and one dealer card
+ * show_all()	Reveals both hands and their values at the end
+ * player_busts()	Triggered if the player exceeds 21
+ * dealer_busts()	Triggered if the dealer exceeds 21
+ * player_wins()	Triggered when player has higher value than dealer
+ * dealer_wins()	Triggered when dealer beats player
+ * push()	Triggered in a tie
