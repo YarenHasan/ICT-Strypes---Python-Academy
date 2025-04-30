@@ -4,11 +4,11 @@ This is a simple command-line implementation of the classic Tic Tac Toe game wri
 
 Features:
 
-	* Two-player game mode (local multiplayer).
-	* Console-based board display using a number pad layout.
-	* Random player starter.
-	* Input validation to prevent invalid or occupied positions.
-	* Option to replay the game after each round.
+ * Two-player game mode (local multiplayer).
+ * Console-based board display using a number pad layout.
+ * Random player starter.
+ * Input validation to prevent invalid or occupied positions.
+ * Option to replay the game after each round.
 
 
 
