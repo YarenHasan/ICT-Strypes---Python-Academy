@@ -19,7 +19,7 @@ This homework implements a simple yet flexible checkout system in Python. It all
   📉 Discount Inner Class:
   
   * Handles the data structure for quantity-based discounts.
-
+<br />
 
 📌 Methods:
 
