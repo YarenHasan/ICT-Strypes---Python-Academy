@@ -49,69 +49,46 @@ Function	Description:
 
 Example:
 
-WELCOME TO BLACKJACK!
-
-How many chips would you like to bet? 56
-
-
- Dealer's Hand: 
- 
-First card hidden!
-
-Five of Hearts
+    WELCOME TO BLACKJACK!
+    How many chips would you like to bet? 56
 
 
- Player's hand:
- 
-Two of Spades
+    Dealer's Hand: 
+    First card hidden!
+    Five of Hearts
 
-King of Clubs
+    Player's hand:
+    Two of Spades
+    King of Clubs
 
-Hit or Stand? Enter h or s h
+    Hit or Stand? Enter h or s h
 
+    Dealer's Hand: 
+    First card hidden!
+    Five of Hearts
 
- Dealer's Hand: 
- 
-First card hidden!
+    Player's hand: 
+    Two of Spades
+    King of Clubs
+    Four of Hearts
 
-Five of Hearts
+    Hit or Stand? Enter h or s h
 
+    Dealer's Hand: 
+    First card hidden!
+    Five of Hearts
 
- Player's hand: 
- 
-Two of Spades
+    Player's hand: 
+    Two of Spades
+    King of Clubs
+    Four of Hearts
+    Jack of Hearts
 
-King of Clubs
+    BUST PLAYER!
 
-Four of Hearts
-
-Hit or Stand? Enter h or s h
-
-
- Dealer's Hand: 
- 
-First card hidden!
-
-Five of Hearts
-
-
- Player's hand: 
- 
-Two of Spades
-King of Clubs
-
-Four of Hearts
-
-Jack of Hearts
-
-BUST PLAYER!
-
-
- Player total chips are: 44
- 
-Would you like to play again? y/n n
-
-Thank you for playing!
+    Player total chips are: 44
+    Would you like to play again? y/n n
+    Thank you for playing!
 
 
 
