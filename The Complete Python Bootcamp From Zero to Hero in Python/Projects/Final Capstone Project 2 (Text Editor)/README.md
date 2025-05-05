@@ -1,4 +1,5 @@
-# 📝 Simple Tkinter Text Editor
+# FINAL CAPSTONE PROJECT 2
+ # 📝 Simple Tkinter Text Editor
 This is a simple text editor built using the Tkinter library in Python. It features basic functionalities like creating a new document, opening and saving text files, text manipulation, and word count. 🚀
 <br />
 
