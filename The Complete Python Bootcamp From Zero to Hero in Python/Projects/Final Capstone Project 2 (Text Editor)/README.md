@@ -20,6 +20,7 @@ This is a simple text editor built using the Tkinter library in Python. It featu
 <br />
 
 🧑‍💻 Code Overview 
+
 Class Application: This class extends the Frame widget from Tkinter and contains the primary logic for the text editor.
 
 Widgets:
