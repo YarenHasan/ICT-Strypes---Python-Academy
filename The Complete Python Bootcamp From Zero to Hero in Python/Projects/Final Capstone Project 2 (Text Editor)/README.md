@@ -5,7 +5,6 @@ This is a simple text editor built using the Tkinter library in Python. It featu
 ✨ Features: 
 
   * New Document 🆕: Start a new document, with an option to discard unsaved changes.
-  
   * Save Document 💾: Save the text written to a file with a .txt extension.
   
   * Open Document 📂: Open an existing text file and display its contents.
