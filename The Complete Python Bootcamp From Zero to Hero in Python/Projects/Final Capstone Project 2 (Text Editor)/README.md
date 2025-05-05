@@ -29,6 +29,7 @@ Widgets:
 
  * A menu bar with options for File, Edit, and Tools functionalities.
 
+
 Functions:
 
  * newDoc(): Prompts the user to start a new document and discard any unsaved changes.
@@ -44,3 +45,10 @@ Functions:
  * clear(): Clears all text in the editor.
 
  * wordCount(): Counts the number of words in the current text and shows the count in a pop-up message.
+<br />
+
+📋 Notes 
+
+ * This text editor is a basic version and is not meant to handle complex formatting or advanced features like rich text editing.
+
+ * The word count function splits the text by spaces and counts the number of words.
