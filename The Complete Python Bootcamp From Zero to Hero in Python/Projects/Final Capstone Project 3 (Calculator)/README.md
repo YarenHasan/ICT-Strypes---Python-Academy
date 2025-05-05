@@ -1,4 +1,5 @@
-# 🧮 Simple Arithmetic Calculator
+# FINAL CAPSTONE PROJECT 3
+ # 🧮 Simple Arithmetic Calculator
 This is a basic 🐍 Python command-line calculator that performs simple math operations (+, -, *, /) on two numbers you enter. It’s quick, interactive, and beginner-friendly! 🎉
 <br />
 
