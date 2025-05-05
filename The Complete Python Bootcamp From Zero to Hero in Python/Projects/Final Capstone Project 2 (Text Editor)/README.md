@@ -52,3 +52,8 @@ Functions:
  * This text editor is a basic version and is not meant to handle complex formatting or advanced features like rich text editing.
 
  * The word count function splits the text by spaces and counts the number of words.
+<br />
+
+📸 Example Screenshot:
+
+![Screenshot 2025-05-05 152146](https://github.com/user-attachments/assets/15a0fccc-bd22-4f01-8db1-a5affa1e7c48)
