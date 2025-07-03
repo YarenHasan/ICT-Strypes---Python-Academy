@@ -1,0 +1,33 @@
+QUESTION:
+Produce a CTE that can return the upward recommendation chain for any member. 
+You should be able to select recommender from recommenders where member=x. 
+Demonstrate it by getting the chains for members 12 and 22. 
+Results table should have member and recommender, ordered by member ascending, recommender descending.
+
+
+
+ANSWER:
+WITH RECURSIVE recommenders AS (
+  SELECT 
+    memid AS member,
+    recommendedby AS recommender
+  FROM cd.members
+  WHERE memid IN (12, 22)
+
+  UNION ALL
+
+  SELECT
+    r.member,
+    m.recommendedby
+  FROM recommenders r
+  JOIN cd.members m ON r.recommender = m.memid
+  WHERE m.recommendedby IS NOT NULL
+)
+SELECT 
+  r.member,
+  r.recommender,
+  m.firstname,
+  m.surname
+FROM recommenders r
+JOIN cd.members m ON r.recommender = m.memid
+ORDER BY r.member ASC, r.recommender DESC;

@@ -1,0 +1,34 @@
+QUESTION:
+Work out the utilisation percentage for each facility by month, sorted by name and month, rounded to 1 decimal place.
+Opening time is 8am, closing time is 8.30pm. 
+You can treat every month as a full month, regardless of if there were some dates the club was not open.
+
+
+ANSWER:
+WITH booking_slots AS (
+  SELECT 
+    facid,
+    DATE_TRUNC('month', starttime) AS month,
+    SUM(slots) AS total_slots
+  FROM cd.bookings
+  GROUP BY facid, DATE_TRUNC('month', starttime)
+),
+days_in_month AS (
+  SELECT 
+    facid,
+    month,
+    total_slots,
+    EXTRACT(DAY FROM (month + INTERVAL '1 month - 1 day')) AS days
+  FROM booking_slots
+),
+utilisation AS (
+  SELECT 
+    f.name,
+    d.month,
+    ROUND((d.total_slots::numeric / (d.days * 25)) * 100, 1) AS utilisation
+  FROM days_in_month d
+  JOIN cd.facilities f ON f.facid = d.facid
+)
+SELECT *
+FROM utilisation
+ORDER BY name, month;

@@ -1,0 +1,22 @@
+QUESTION:
+Find the upward recommendation chain for member ID 27: that is, the member who recommended them, 
+and the member who recommended that member, and so on. 
+Return member ID, first name, and surname. Order by descending member id.
+
+
+
+ANSWER:
+WITH RECURSIVE recommendation_chain AS (
+  SELECT memid, firstname, surname, recommendedby
+  FROM cd.members
+  WHERE memid = (SELECT recommendedby FROM cd.members WHERE memid = 27)
+
+  UNION ALL
+
+  SELECT m.memid, m.firstname, m.surname, m.recommendedby
+  FROM cd.members m
+  JOIN recommendation_chain rc ON m.memid = rc.recommendedby
+)
+SELECT memid AS recommender, firstname, surname
+FROM recommendation_chain
+ORDER BY memid DESC;
