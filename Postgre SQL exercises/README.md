@@ -1,0 +1,1 @@
+# 🐘🗃️🛡️ Postgre SQL exercises
