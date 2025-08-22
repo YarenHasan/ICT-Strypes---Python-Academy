@@ -37,6 +37,21 @@ Everything is fully containerized with Docker & Docker Compose 🚀
     README.md           # Project documentation
 
 
+⚙️ Technologies Used
+
+* 🐍 Python 3.10+
+
+* ⚡ FastAPI → Web framework
+
+* 🗄️ SQLAlchemy → ORM
+
+* 🐘 PostgreSQL → Database
+
+* 📦 Docker & Docker Compose → Containerization
+
+* 🌐 Requests + BeautifulSoup → Web scraping
+
+* 🛡️ Pydantic → Data validation
 
 
 
