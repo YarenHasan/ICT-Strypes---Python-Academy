@@ -130,3 +130,10 @@ Run locally without Docker:
 Run tests (if added):
 
     pytest
+
+
+📸 Screenshots:
+
+* Swagger UI demo (/docs)
+<img width="1913" height="955" alt="Screenshot 2025-08-20 155324" src="https://github.com/user-attachments/assets/5f47597f-f1c7-49d7-adff-96c3705e1f08" />
+* Example JSON response
