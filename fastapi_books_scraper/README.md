@@ -61,6 +61,19 @@ Everything is fully containerized with Docker & Docker Compose 🚀
     git clone https://github.com/your-username/fastapi-books-scraper.git
     cd fastapi-books-scraper
 
+  2️⃣ Copy environment file
+  
+    cp .env.example .env
+
+  3️⃣ Build & run with Docker Compose
+  
+    docker-compose up --build
+
+API will be available at 👉 http://localhost:8000
+
+Swagger docs 👉 http://localhost:8000/docs
+
+
 
 
 
