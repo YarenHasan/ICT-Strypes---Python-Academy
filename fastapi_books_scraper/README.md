@@ -119,16 +119,6 @@ Example POST /scrape (limit = 5):
 * Learn modern stack → FastAPI + PostgreSQL + Docker 🚀
 
 
-🧑‍💻 Development:
-
-Run locally without Docker:
-
-    uvicorn app.main:app --reload
-
-Run tests (if added):
-
-    pytest
-
 
 📸 Screenshots:
 
@@ -155,3 +145,4 @@ Run tests (if added):
 * It’s simple, extensible, and a great starting point for more advanced scraping + API projects.
 
 ✨ Made with ❤️ using FastAPI + PostgreSQL + Docker ✨
+
