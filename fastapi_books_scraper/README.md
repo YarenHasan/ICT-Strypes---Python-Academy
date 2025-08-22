@@ -18,7 +18,23 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   
     🐳 Deployment → Ready-to-run with Docker & Docker Compose
 
-🏗️ Project Architecture
+🏗️ Project Architecture:
+
+app/
+├── config.py       # Environment variables & settings
+├── crud.py         # Database CRUD operations
+├── database.py     # SQLAlchemy engine & session
+├── main.py         # FastAPI app with endpoints
+├── models.py       # SQLAlchemy models
+├── schemas.py      # Pydantic schemas
+├── scraper.py      # Scraping logic (Requests + BeautifulSoup)
+.env                # Environment variables
+docker-compose.yml  # Orchestration of DB + API
+Dockerfile          # API container build
+requirements.txt    # Python dependencies
+README.md           # Project documentation
+
+
 
 
 
