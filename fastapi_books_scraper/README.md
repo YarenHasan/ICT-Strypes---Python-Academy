@@ -120,3 +120,13 @@ Example POST /scrape (limit = 5):
 
 * Learn modern stack → FastAPI + PostgreSQL + Docker 🚀
 
+
+🧑‍💻 Development:
+
+Run locally without Docker:
+
+    uvicorn app.main:app --reload
+
+Run tests (if added):
+
+    pytest
