@@ -6,8 +6,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
 
 ✨ Features:
   🔍 Scraping → Titles, descriptions, and URLs from Books to Scrape
-  
-  📄 Pagination → Handles multiple pages automatically
+    📄 Pagination → Handles multiple pages automatically
   
   🗄️ Database → PostgreSQL with SQLAlchemy ORM
   
@@ -18,6 +17,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   🐳 Deployment → Ready-to-run with Docker & Docker Compose
 
 🏗️ Project Architecture
+
 
 
 
