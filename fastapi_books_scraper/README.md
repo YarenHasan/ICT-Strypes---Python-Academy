@@ -139,7 +139,9 @@ Run tests (if added):
 <img width="1136" height="734" alt="Screenshot 2025-08-20 155854" src="https://github.com/user-attachments/assets/c5cb1027-d7ab-4c10-be42-2526e37a65cb" />
 <img width="1054" height="687" alt="Screenshot 2025-08-20 155907" src="https://github.com/user-attachments/assets/823ffc8f-4884-417a-bbc5-2bf6e1ac6efd" />
 <img width="1110" height="804" alt="Screenshot 2025-08-20 155925" src="https://github.com/user-attachments/assets/a6f64b48-0068-4ed9-ac56-9c01417f56e4" />
-<img width="1085" height="799" alt="Screenshot 2025-08-20 155937" src="https://github.com/user-attachments/assets/066c1c8a-34ee-4831-8873-9bb6d99f43cf" />
+<img width="1064" height="747" alt="Screenshot 2025-08-22 165116" src="https://github.com/user-attachments/assets/e23a4cfb-dd01-4806-8a1a-ab84216e3874" />
+
 
 * Example JSON response
+
 
