@@ -37,7 +37,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
     README.md           # Project documentation
 
 
-⚙️ Technologies Used
+⚙️ Technologies Used:
 
 * 🐍 Python 3.10+
 
@@ -74,6 +74,12 @@ API will be available at 👉 http://localhost:8000
 Swagger docs 👉 http://localhost:8000/docs
 
 
+🛠️ API Endpoints
+Method	Endpoint	Description
+POST	/scrape	Scrape new books (with limit)
+GET	/items	List all books
+GET	/items/{item_id}	Get one book by ID
+DELETE	/items/{item_id}	Delete a book by ID
 
 
 
