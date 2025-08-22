@@ -148,3 +148,10 @@ Run tests (if added):
 <img width="1053" height="589" alt="Screenshot 2025-08-22 165945" src="https://github.com/user-attachments/assets/93f765ff-f84f-43a1-a04e-c3c692abc5a0" />
 
 
+💡 Conclusion:
+
+* This project demonstrates an end-to-end workflow:
+* from scraping external data → validating → storing in a database → exposing via API.
+* It’s simple, extensible, and a great starting point for more advanced scraping + API projects.
+
+✨ Made with ❤️ using FastAPI + PostgreSQL + Docker ✨
