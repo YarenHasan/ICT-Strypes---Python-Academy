@@ -54,6 +54,12 @@ Everything is fully containerized with Docker & Docker Compose 🚀
 * 🛡️ Pydantic → Data validation
 
 
+🚀 Setup & Run:
+
+  1️⃣ Clone the repo
+  
+    git clone https://github.com/your-username/fastapi-books-scraper.git
+    cd fastapi-books-scraper
 
 
 
