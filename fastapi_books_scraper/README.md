@@ -69,8 +69,6 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   
     docker-compose up --build
 
-API will be available at 👉 http://localhost:8000
-
 Swagger docs 👉 http://localhost:8000/docs
 
 
@@ -143,5 +141,10 @@ Run tests (if added):
 
 
 * Example JSON response
+<img width="1054" height="629" alt="Screenshot 2025-08-22 165417" src="https://github.com/user-attachments/assets/8f8948fe-7075-4dc4-bbd1-c6908c78fa95" />
+<img width="1056" height="852" alt="Screenshot 2025-08-22 165644" src="https://github.com/user-attachments/assets/20d3da23-8842-4a8d-a767-5473e5411cd0" />
+<img width="1055" height="635" alt="Screenshot 2025-08-22 165800" src="https://github.com/user-attachments/assets/3ac7754e-89a8-4619-9169-e97158b0211e" />
+<img width="1053" height="568" alt="Screenshot 2025-08-22 165855" src="https://github.com/user-attachments/assets/c630daf4-8f00-4e87-80ad-ea993910e4bd" />
+<img width="1053" height="589" alt="Screenshot 2025-08-22 165945" src="https://github.com/user-attachments/assets/93f765ff-f84f-43a1-a04e-c3c692abc5a0" />
 
 
