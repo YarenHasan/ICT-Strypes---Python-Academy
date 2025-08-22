@@ -84,6 +84,17 @@ Swagger docs 👉 http://localhost:8000/docs
 | DELETE | /items/{item_id} | Delete a book by ID           |
  
 
+Example POST /scrape (limit = 5):
+
+    [
+      {
+        "id": "31e60aa0-06b7-4b46-b0f4-0e9e89b3a5b1",
+        "title": "A Light in the Attic",
+        "description": "This is a sample description…",
+        "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+        "created_at": "2025-08-21T18:35:20.123Z"
+      }
+    ]
 
 
 
