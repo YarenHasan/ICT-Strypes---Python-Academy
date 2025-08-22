@@ -5,18 +5,21 @@ A full-stack demo project that scrapes books from [Books to Scrape](http://books
 Everything is fully containerized with Docker & Docker Compose 🚀
 
 ✨ Features:
-  🔍 Scraping → Titles, descriptions, and URLs from Books to Scrape
+
+    🔍 Scraping → Titles, descriptions, and URLs from Books to Scrape
+  
     📄 Pagination → Handles multiple pages automatically
   
-  🗄️ Database → PostgreSQL with SQLAlchemy ORM
+    🗄️ Database → PostgreSQL with SQLAlchemy ORM
   
-  ⚡ API → CRUD endpoints built with FastAPI
+    ⚡ API → CRUD endpoints built with FastAPI
   
-  ✅ Validation → Pydantic for request/response schemas
+    ✅ Validation → Pydantic for request/response schemas
   
-  🐳 Deployment → Ready-to-run with Docker & Docker Compose
+    🐳 Deployment → Ready-to-run with Docker & Docker Compose
 
 🏗️ Project Architecture
+
 
 
 
