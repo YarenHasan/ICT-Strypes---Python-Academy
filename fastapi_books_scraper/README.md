@@ -4,8 +4,7 @@ A full-stack demo project that scrapes books from [Books to Scrape](http://books
 , stores them in a PostgreSQL database, and exposes a clean FastAPI-powered REST API.
 Everything is fully containerized with Docker & Docker Compose 🚀
 
-✨ Features
-
+✨ Features:
   🔍 Scraping → Titles, descriptions, and URLs from Books to Scrape
   
   📄 Pagination → Handles multiple pages automatically
@@ -19,6 +18,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   🐳 Deployment → Ready-to-run with Docker & Docker Compose
 
 🏗️ Project Architecture
+
 
 
 
