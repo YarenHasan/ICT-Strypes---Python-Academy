@@ -97,6 +97,17 @@ Example POST /scrape (limit = 5):
     ]
 
 
+🔄 Data Workflow:
+
+* 🌐 Scraper → Fetches books with Requests & BeautifulSoup
+
+* 🛡️ Validation → Pydantic ensures clean data
+
+* 🗄️ Database → SQLAlchemy stores records in PostgreSQL
+
+* ⚡ API → FastAPI exposes CRUD endpoints
+
+* 📡 Client → Consumes results via JSON
 
 
 
