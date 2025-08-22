@@ -110,4 +110,13 @@ Example POST /scrape (limit = 5):
 * 📡 Client → Consumes results via JSON
 
 
+🧩 Example Use Case:
+
+* Archive book data 📚
+
+* Compare books across multiple pages 🔄
+
+* Build a search/filter system 🔎
+
+* Learn modern stack → FastAPI + PostgreSQL + Docker 🚀
 
