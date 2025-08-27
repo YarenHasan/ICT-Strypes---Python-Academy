@@ -59,7 +59,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   1️⃣ Clone the repo
   
     git clone https://github.com/your-username/fastapi-books-scraper.git
-    cd fastapi-books-scraper
+    cd fastapi_books_scraper
 
   2️⃣ Copy environment file
   
@@ -145,4 +145,5 @@ Example POST /scrape (limit = 5):
 * It’s simple, extensible, and a great starting point for more advanced scraping + API projects.
 
 ✨ Made with ❤️ using FastAPI + PostgreSQL + Docker ✨
+
 
