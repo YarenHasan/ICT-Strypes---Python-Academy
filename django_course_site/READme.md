@@ -81,6 +81,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 <br> 
 🖼 Screenshots
 
+
 📋 All Meetups Page
 
 📄 Meetup Details Page
