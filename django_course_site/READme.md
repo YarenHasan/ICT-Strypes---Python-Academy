@@ -76,8 +76,10 @@ It’s a simple but complete project that lets users explore meetups, view detai
 <br> 
 🖼 Screenshots
 <br> 
+
 * All Meetups Page
 <img width="933" height="893" alt="Screenshot 2025-08-28 163249" src="https://github.com/user-attachments/assets/ea3caa0c-b857-45cf-820f-79c874d8cfd1" />
+
 * Meetup Details Page
 <img width="937" height="889" alt="Screenshot 2025-08-28 163347" src="https://github.com/user-attachments/assets/7e7a7760-c216-409c-a6c3-577f1e4c3132" />
 
