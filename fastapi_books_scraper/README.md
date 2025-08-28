@@ -4,7 +4,7 @@ A full-stack demo project that scrapes books from [Books to Scrape](http://books
 , stores them in a PostgreSQL database, and exposes a clean FastAPI-powered REST API.
 Everything is fully containerized with Docker & Docker Compose 🚀
 
-
+<br> 
 ✨ Features:
 
 * 🔍 Scraping → Titles, descriptions, and URLs from Books to Scrape
@@ -19,7 +19,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
   
 * 🐳 Deployment → Ready-to-run with Docker & Docker Compose
 
-
+<br> 
 🏗️ Project Architecture:
 
     app/
@@ -36,7 +36,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
     requirements.txt    # Python dependencies
     README.md           # Project documentation
 
-
+<br> 
 ⚙️ Technologies Used:
 
 * 🐍 Python 3.10+
@@ -53,7 +53,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
 
 * 🛡️ Pydantic → Data validation
 
-
+<br> 
 🚀 Setup & Run:
 
   1️⃣ Clone the repo
@@ -71,7 +71,7 @@ Everything is fully containerized with Docker & Docker Compose 🚀
 
 Swagger docs 👉 http://localhost:8000/docs
 
-
+<br> 
 🛠️ API Endpoints:
 
 | Method | Endpoint         | Description                   |
@@ -81,7 +81,7 @@ Swagger docs 👉 http://localhost:8000/docs
 | GET    | /items/{item_id} | Get one book by ID            |
 | DELETE | /items/{item_id} | Delete a book by ID           |
  
-
+<br> 
 Example POST /scrape (limit = 5):
 
     [
@@ -94,7 +94,7 @@ Example POST /scrape (limit = 5):
       }
     ]
 
-
+<br> 
 🔄 Data Workflow:
 
 * 🌐 Scraper → Fetches books with Requests & BeautifulSoup
@@ -107,7 +107,7 @@ Example POST /scrape (limit = 5):
 
 * 📡 Client → Consumes results via JSON
 
-
+<br> 
 🧩 Example Use Case:
 
 * Archive book data 📚
@@ -119,7 +119,7 @@ Example POST /scrape (limit = 5):
 * Learn modern stack → FastAPI + PostgreSQL + Docker 🚀
 
 
-
+<br> 
 📸 Screenshots:
 
 * Swagger UI demo (/docs)
@@ -137,14 +137,15 @@ Example POST /scrape (limit = 5):
 <img width="1053" height="568" alt="Screenshot 2025-08-22 165855" src="https://github.com/user-attachments/assets/c630daf4-8f00-4e87-80ad-ea993910e4bd" />
 <img width="1053" height="589" alt="Screenshot 2025-08-22 165945" src="https://github.com/user-attachments/assets/93f765ff-f84f-43a1-a04e-c3c692abc5a0" />
 
-
+<br> 
 💡 Conclusion:
 
 * This project demonstrates an end-to-end workflow:
 * from scraping external data → validating → storing in a database → exposing via API.
 * It’s simple, extensible, and a great starting point for more advanced scraping + API projects.
-
+<br> 
 ✨ Made with ❤️ using FastAPI + PostgreSQL + Docker ✨
+
 
 
 
