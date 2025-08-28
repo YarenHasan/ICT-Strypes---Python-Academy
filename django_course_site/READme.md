@@ -73,7 +73,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 
  * 🔑 Visit /admin/ → Manage meetups, locations, participants.
 
-
+<br> 
 🖼 Screenshots
 <br> 
 📋 All Meetups Page
