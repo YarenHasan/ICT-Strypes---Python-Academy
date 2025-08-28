@@ -3,7 +3,7 @@
 Welcome to Django Course Site, a web application built with Django 3.2 🎯.
 It’s a simple but complete project that lets users explore meetups, view details, and register for events.
 
-
+<br> 
 ✨ Features
 
  * 🗂 Meetups Management: Create, update, and list meetups.
@@ -20,7 +20,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 
  * 🔑 Admin Panel: Full CRUD for Meetups, Locations, and Participants.
 
-
+<br> 
 🛠 Tech Stack
 
  * ⚡ Backend: Django 3.2 (Python)
@@ -31,7 +31,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 
  * 🛠 Admin: Django Admin for content management
 
-
+<br> 
 ⚙️ Installation & Setup
 
 1. Clone the repository
@@ -65,7 +65,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 
 6. Open 👉 http://127.0.0.1:8000/meetups/ in your browser.
 
-
+<br> 
 ▶️ Usage
 
  * 🌍 Go to /meetups/ → See all meetups.
@@ -78,7 +78,7 @@ It’s a simple but complete project that lets users explore meetups, view detai
 
  * 🔑 Visit /admin/ → Manage meetups, locations, participants.
 
-
+<br> 
 🖼 Screenshots
 
 📋 All Meetups Page
